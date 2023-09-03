@@ -1,9 +1,16 @@
 
 body {
+    display: flex;
+    /* flex-direction: column; */
     margin: 0;
     padding: 0;
     margin-left: 2.5rem;
-
+}
+.body-left{
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+    /* align-items: center; */
 }
 .home{
     display: flex;
@@ -12,7 +19,7 @@ body {
 }
 .home-right{
     margin-left: 70%;
-    position: fixed;
+    position: fixed;    
 }
 .yellow-bg{
     display: flex;
@@ -45,11 +52,9 @@ font-family: Roboto Serif;
 font-size: 1rem;
 font-weight: 700;
 line-height: normal;
-margin: 0%;
 }
+
 .main-heading h3{
-    margin: 0%;
-    width: 40rem;
     color: #000;
 font-family: Roboto Serif;
 font-size: 1.5rem;
@@ -94,7 +99,7 @@ font-weight: 700;
 line-height: normal;
 }
 .about-para{
-    width: 70%;
+    /* width: 70%; */
     color: #000;
 font-family: Roboto Serif;
 font-size: 1.3125rem;
@@ -113,7 +118,7 @@ gap: 0.625rem;
 height: 4.375rem;
 }
 .about-dev-content{
-    width: 61%;
+    width: fit-content;
     color: #000;
 font-family: Roboto Serif;
 font-size: 1.125rem;
@@ -145,7 +150,7 @@ line-height: normal;
 
 .web-world{
     display: flex;
-    width: 73%;
+    /* width: 73%; */
     align-items: flex-start;
     align-content: flex-start;
     gap: 1.375rem 1.125rem;
@@ -156,6 +161,8 @@ line-height: normal;
     padding: 1.25rem;
     flex-direction: column;
     align-items: center;
+    justify-content: center;
+    align-content: center;
     gap: 0.4375rem;
     border-radius: 1.25rem;
     border: 3px solid #000;
@@ -200,10 +207,16 @@ line-height: 1.2; /* 166.667% */
 /* margin-left:5vw; */
 }
 .doodles{
-margin-left:5vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+justify-content: center;
+width: fit-content;
+margin: auto;
+height: fit-content;
 }
 .doodle-heading{
-    margin-left: 10vw;
+    /* margin-left: 10vw; */
     color: #000;
 font-family: Roboto Serif;
 font-size: 1.5625rem;
@@ -212,31 +225,57 @@ font-weight: 400;
 line-height: normal;
 margin-bottom: 2rem;
 }
+
 .doodle-photos{
-    /* width: 50rem; */
-height: 18.75rem;
-margin-left: -4.5px;
-position: relative;
+    display: flex;
+/* height: 18.75rem; */
 }
 .doodle-photos img{
-    position: absolute;
-    width: 18.75rem;
-height: 18.75rem;
+    display: flex;
+    width: 20vw;
+    height: 20VW;
 flex-shrink: 0;
 }
+
 .art-images{
     display: flex;
-    gap: 2rem;
-    margin-left: 10vw;
+    gap: 1rem;
+justify-items: center;
+justify-content: center;
+margin: auto;
+}
+.art-images img{
+    width: 20vw;
 }
 .Thanks{
+    margin: auto;
     margin-top: 15rem;
-    margin-left: 10vw;
     margin-bottom: 15rem;
 }
 
-@media (max-width: 1200px) {
-    .doodle-photos img{
-        width: auto;
+@media (max-width: 600px) {
+    .home-buttons{
+        flex-direction: column;
+    }
+    .doodle-main{
+        margin-top: 6rem;
+        margin-bottom: 2rem;
+    }
+    .Thanks{
+        margin-top: 8rem;
+        text-align: center;
+    }
+}
+@media (max-width: 1000px) {
+
+    .home-right{
+        margin-right: 0%;
+    }
+    .my-vector{
+        margin-left: -5rem;
+    }
+    .yellow-bg{
+        height: 100vh;
+        /* width: 100%; */
     }
 }
