@@ -46,13 +46,6 @@ background-image: url("./Photos/my-vector.png");
     gap: 1.5625rem;
     height: 100vh;
 }
-.main-heading{
-    color: #000;
-font-family: Roboto Serif;
-font-size: 1rem;
-font-weight: 700;
-line-height: normal;
-}
 
 .main-heading h3{
     color: #000;
@@ -265,6 +258,43 @@ margin: auto;
         margin-top: 8rem;
         text-align: center;
     }
+    .main-heading h1{
+        font-size: 1.2rem;
+    }
+    .main-heading h3,
+    .about-dev-content{
+        font-size: 1rem;
+        line-height: 1.2rem;
+    }
+    .about-title{
+        font-size: 1rem;
+    }
+    .about-para,
+    .doodle-heading{
+        font-size: 1rem;
+        line-height: 1.2rem;
+    }
+    .about-buttons button,
+    .home-buttons button{
+        font-size: 1rem;
+        line-height: 1.2rem;
+        padding: 0.4rem 0.5rem;
+    }
+    .about-dev-icon{
+        width: 2rem;
+        height: 2rem;
+        background-size: contain;
+        background-repeat: no-repeat;
+    }
+    .project-logo{
+        width: 8rem;
+background-size: contain;}
+}
+.project-title{
+    font-size: 1rem;
+}
+.project-content p{
+    font-size:1rem;
 }
 @media (max-width: 1000px) {
 
