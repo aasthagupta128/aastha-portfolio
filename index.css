@@ -1,51 +1,59 @@
-
 @font-face {
     font-family: RobotoSerif;
     src: url('./RobotoSerif-Regular.ttf');
 }
-html{
+
+html {
     scroll-behavior: smooth;
 }
-body{
+
+body {
     display: flex;
-    /* flex-direction: column; */
+    flex-direction: column;
+    margin-top: 0;
+}
+
+.body-main {
+    display: flex;
     gap: 1rem;
     margin: 0;
-    /* padding: 0; */
     margin-left: 2.5rem;
 }
 
-.body-left{
+.body-left {
     display: flex;
     flex-direction: column;
     width: 65%;
     /* align-items: center; */
 }
-.home{
+
+.home {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
 }
-.body-right{
+
+.body-right {
     display: flex;
     align-items: center;
-    gap:1rem;
+    gap: 1rem;
     position: fixed;
     margin-left: 65%;
 }
-.home-right{
+
+.home-right {
     display: flex;
     align-items: center;
     justify-items: flex-end;
-    position: fixed;    
+    position: fixed;
 }
 
-.nav-buttons{
+.nav-buttons {
     display: flex;
     flex-direction: column;
 }
 
-.yellow-bg{
+.yellow-bg {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -56,47 +64,49 @@ body{
     border-right: 3px solid #000;
     background: #F7CB45;
 }
-.aastha-button{
+
+.aastha-button {
     position: absolute;
-        width: 21.67556rem;
-        height: 31.6875rem;
-        background-image: url(./Photos/aasthawithbutton.svg);
-        background-size: contain;
-        background-repeat: no-repeat;
-}
-.my-vector{
-    width: 13.5625rem;
-height: 27.625rem;
-background-image: url("./Photos/my-vector.png");
+    width: 21.67556rem;
+    height: 31.6875rem;
+    background-image: url(./Photos/aasthawithbutton.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
 }
 
-.nav-buttons button{
+.my-vector {
+    width: 13.5625rem;
+    height: 27.625rem;
+    background-image: url("./Photos/my-vector.png");
+}
+
+.nav-buttons button {
     text-decoration: none;
     border: none;
     background-color: transparent;
 }
 
-.tooltip-text{
+.tooltip-text {
     width: 4.5rem;
-        visibility: hidden;
+    visibility: hidden;
     display: flex;
-padding: 0.3125rem 0.625rem;
-justify-content: center;
-align-items: center;
-gap: 0.625rem;
-text-decoration: none;
-color: #000;
-border-radius: 3.125rem;
-border: 1px solid #000;
-background: #ffffff;
-box-shadow: 4px 4px 0px 0px #000;
+    padding: 0.3125rem 0.625rem;
+    justify-content: center;
+    align-items: center;
+    gap: 0.625rem;
+    text-decoration: none;
+    color: #000;
+    border-radius: 3.125rem;
+    border: 1px solid #000;
+    background: #ffffff;
+    box-shadow: 4px 4px 0px 0px #000;
 }
 
-
-.nav-buttons button:hover .tooltip-text{
-visibility: visible;
+.nav-buttons button:hover .tooltip-text {
+    visibility: visible;
 }
-.home-left{
+
+.home-left {
     display: flex;
     justify-content: center;
     flex-direction: column;
@@ -105,110 +115,130 @@ visibility: visible;
     height: 100vh;
 }
 
-.main-heading h3{
+.main-heading h3 {
     color: #000;
-font-family: RobotoSerif;
-font-size: 1.5rem;
-font-style: normal;
-font-weight: 400;
-line-height: 1.875rem; /* 125% */
+    font-family: RobotoSerif;
+    font-size: 1.5rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.875rem;
+    /* 125% */
 }
-.home-buttons{
+
+.home-buttons {
     display: flex;
     align-items: flex-start;
     gap: 1.5625rem;
 }
 
-.home-buttons button{
-display: inline-flex;
-padding: 0.625rem 0.9375rem;
-flex-direction: column;
-align-items: flex-start;
-gap: 0.625rem;
-border-radius: 0.625rem;
-border: 1px solid #000;
-background: #FF9191;
-box-shadow: 2px 2px 0px 0px #000;
-color: #000;
-font-family: RobotoSerif;
-font-size: 1.3125rem;
-font-style: normal;
-font-weight: 400;
-line-height: normal;
+.home-buttons button {
+    display: inline-flex;
+    padding: 0.625rem 0.9375rem;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 0.625rem;
+    border-radius: 0.625rem;
+    border: 1px solid #000;
+    background: #FF9191;
+    box-shadow: 2px 2px 0px 0px #000;
+    color: #000;
+    font-family: RobotoSerif;
+    font-size: 1.3125rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
 }
 
-.social-media button{
-text-decoration: none;
-background-color: transparent;
-border: none;
+.social-media button {
+    text-decoration: none;
+    background-color: transparent;
+    border: none;
+    padding: 0;
 }
-.about{
+
+.social-media {
+    display: flex;
+    gap: 1rem;
+    margin-top: 1.5rem;
+    flex-wrap: wrap;
+}
+
+.about {
     display: inline-flex;
-flex-direction: column;
-align-items: flex-start;
-gap: 1.5625rem;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 1.5625rem;
 }
-.about-title{
+
+.about-title {
     color: #000;
-font-family: RobotoSerif;
-font-size: 1.5625rem;
-font-style: normal;
-font-weight: 700;
-line-height: normal;
+    font-family: RobotoSerif;
+    font-size: 1.5625rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
 }
-.about-para{
+
+.about-para {
     /* width: 70%; */
     color: #000;
-font-family: RobotoSerif;
-font-size: 1.3125rem;
-font-style: normal;
-font-weight: 400;
-line-height: 1.875rem; /* 142.857% */
+    font-family: RobotoSerif;
+    font-size: 1.3125rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.875rem;
+    /* 142.857% */
 }
-.about-dev{
+
+.about-dev {
     display: flex;
-align-items: center;
-gap: 0.625rem;
+    align-items: center;
+    gap: 0.625rem;
 }
-.about-dev-icon{
+
+.about-dev-icon {
     background-image: url("./Photos/dev-icon.svg");
     width: 4.23644rem;
-height: 4.375rem;
-background-size: contain;
-background-repeat: no-repeat;
+    height: 4.375rem;
+    background-size: contain;
+    background-repeat: no-repeat;
 }
-.about-dev-content{
+
+.about-dev-content {
     width: fit-content;
     color: #000;
-font-family: RobotoSerif;
-font-size: 1.125rem;
-font-style: normal;
-font-weight: 400;
-line-height: 1.875rem; /* 166.667% */
+    font-family: RobotoSerif;
+    font-size: 1.125rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.875rem;
+    /* 166.667% */
 }
-.about-buttons button{
+
+.about-buttons button {
     display: flex;
-padding: 0.625rem 0.9375rem;
-flex-direction: column;
-align-items: flex-start;
-gap: 0.625rem;
-border-radius: 0.625rem;
-border: 1px solid #000;
-background: #22A094;
-box-shadow: 2px 2px 0px 0px #000;
-color: #FFF;
-font-family: RobotoSerif;
-font-size: 1.3125rem;
-font-style: normal;
-font-weight: 400;
-line-height: normal;
+    padding: 0.625rem 0.9375rem;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 0.625rem;
+    border-radius: 0.625rem;
+    border: 1px solid #000;
+    background: #22A094;
+    box-shadow: 2px 2px 0px 0px #000;
+    color: #FFF;
+    font-family: RobotoSerif;
+    font-size: 1.3125rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
 }
-.web-world-main{
+
+.web-world-main {
     margin-top: 10rem;
     margin-bottom: 2.5rem;
 }
 
-.web-world{
+.web-world {
     display: flex;
     /* width: 73%; */
     align-items: flex-start;
@@ -216,7 +246,8 @@ line-height: normal;
     gap: 1.375rem 1.125rem;
     flex-wrap: wrap;
 }
-.project{
+
+.project {
     display: flex;
     padding: 1.25rem;
     flex-direction: column;
@@ -228,7 +259,8 @@ line-height: normal;
     border: 3px solid #000;
     box-shadow: 2px 2px 0px 0px #000;
 }
-.project-logo{
+
+.project-logo {
     width: 100%;
     height: 10vh;
     /* width: 15.625rem;
@@ -237,132 +269,192 @@ line-height: normal;
     background-size: contain;
     background-repeat: no-repeat;
 }
-.project-title{
+
+.project-title {
     margin-top: 0rem;
     margin-bottom: -0.7rem;
     color: #000;
-font-family: RobotoSerif;
-font-size: 1.125rem;
-font-style: normal;
-font-weight: 700;
-line-height: 1.875rem; /* 166.667% */
+    font-family: RobotoSerif;
+    font-size: 1.125rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 1.875rem;
+    /* 166.667% */
 }
-.project-content{
+
+.project-content {
     display: flex;
-flex-direction: column;
-align-items: center;
+    flex-direction: column;
+    align-items: center;
 }
-.project-content p{
+
+.project-content p {
     margin-bottom: -0.5rem;
     color: #000;
-font-family: RobotoSerif;
-font-size: 1.125rem;
-font-style: normal;
-font-weight: 400;
-line-height: 1.2; /* 166.667% */
+    font-family: RobotoSerif;
+    font-size: 1.125rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.2;
+    /* 166.667% */
 }
-.doodle-main{
+
+.doodle-main {
     margin-top: 10rem;
     margin-bottom: 2.5rem;
     display: flex;
     flex-direction: column;
-/* margin-left:5vw; */
+    /* margin-left:5vw; */
 }
-.doodles{
+
+.doodles {
     display: flex;
     flex-direction: column;
     align-items: center;
-justify-content: center;
-width: fit-content;
-margin: auto;
-height: fit-content;
-}
-.doodle-heading{
-    /* margin-left: 10vw; */
-    color: #000;
-font-family: RobotoSerif;
-font-size: 1.5625rem;
-font-style: normal;
-font-weight: 400;
-line-height: normal;
-margin-bottom: 2rem;
+    justify-content: center;
+    width: fit-content;
+    margin: auto;
+    height: fit-content;
 }
 
-.doodle-photos{
-    display: flex;
-/* height: 18.75rem; */
+.doodle-heading {
+    /* margin-left: 10vw; */
+    color: #000;
+    font-family: RobotoSerif;
+    font-size: 1.5625rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-bottom: 2rem;
 }
-.doodle-photos img{
+
+.doodle-photos {
+    display: flex;
+    /* height: 18.75rem; */
+}
+
+.doodle-photos img {
     display: flex;
     width: 20vw;
     height: 20VW;
-flex-shrink: 0;
+    flex-shrink: 0;
 }
 
-.art-images{
+.art-images {
     display: flex;
     gap: 1rem;
-justify-items: center;
-justify-content: center;
-margin: auto;
+    justify-items: center;
+    justify-content: center;
+    margin: auto;
 }
-.art-images img{
+
+.art-images img {
     width: 20vw;
 }
-.Thanks{
+
+.Thanks {
     margin: auto;
     margin-top: 15rem;
     margin-bottom: 15rem;
 }
 
+.nav-buttons-horizontal {
+    display: none;
+}
+
+@media (max-width:450px) {
+    .my-vector {
+        width: 8.1rem;
+        height: 16.5rem;
+        background-image: url("./Photos/my-vector.png");
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+}
+
 @media (max-width: 600px) {
-    .home-buttons{
+    .home-buttons {
         flex-direction: column;
     }
-    .doodle-main{
+    .doodle-main {
         margin-top: 6rem;
         margin-bottom: 2rem;
     }
-    .Thanks{
+    .Thanks {
         margin-top: 8rem;
         text-align: center;
     }
-    .main-heading h1{
+    .main-heading h1 {
         font-size: 1.2rem;
     }
     .main-heading h3,
-    .about-dev-content{
+    .about-dev-content {
         font-size: 1rem;
         line-height: 1.2rem;
     }
-    .about-title{
+    .about-title {
         font-size: 1rem;
     }
     .about-para,
-    .doodle-heading{
+    .doodle-heading {
         font-size: 1rem;
         line-height: 1.2rem;
     }
     .about-buttons button,
-    .home-buttons button{
+    .home-buttons button {
         font-size: 1rem;
         line-height: 1.2rem;
         padding: 0.4rem 0.5rem;
     }
-    .about-dev-icon{
+    .about-dev-icon {
         width: 2rem;
         height: 2rem;
         background-size: contain;
         background-repeat: no-repeat;
     }
-    .project-logo{
+    .project-logo {
         height: 5vh;
         width: 8rem;
-background-size: contain;}
+        background-size: contain;
+    }
+    .nav-btn-hor img,
+    .social-media img {
+        width: 3rem;
+        height: 3rem;
+    }
 }
-.project-title{
+
+.project-title {
     font-size: 1rem;
 }
-.project-content p{
-    font-size:1rem;
+
+.project-content p {
+    font-size: 1rem;
+}
+
+@media(max-width: 1000px) {
+    .body-right {
+        flex-direction: column;
+    }
+    .nav-buttons {
+        display: none;
+    }
+    .nav-buttons-horizontal {
+        display: flex;
+    }
+    .nav-btn-hor {
+        position: fixed;
+        bottom: 5%;
+        left: 50%;
+        transform: translateX(-50%);
+        z-index: 999;
+    }
+    .nav-buttons-horizontal button {
+        text-decoration: none;
+        border: none;
+        background-color: transparent;
+    }
+    .aastha-button {
+        display: none;
+    }
 }
