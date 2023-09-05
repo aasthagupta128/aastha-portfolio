@@ -6,29 +6,32 @@
 html{
     scroll-behavior: smooth;
 }
-body {
-    display: inline-flex;
+body{
+    display: flex;
     /* flex-direction: column; */
     gap: 1rem;
     margin: 0;
-    padding: 0;
+    /* padding: 0; */
     margin-left: 2.5rem;
 }
 
 .body-left{
     display: flex;
     flex-direction: column;
-    width: 70%;
+    width: 65%;
     /* align-items: center; */
-}
-.body-right{
-    display: flex;
-    flex-direction: column;
 }
 .home{
     display: flex;
     flex-direction: column;
     align-items: flex-start;
+}
+.body-right{
+    display: flex;
+    align-items: center;
+    gap:1rem;
+    position: fixed;
+    margin-left: 65%;
 }
 .home-right{
     display: flex;
@@ -40,24 +43,18 @@ body {
 .nav-buttons{
     display: flex;
     flex-direction: column;
-align-items: flex-end;
-justify-content:flex-end ;
-/* margin: 0%; */
-position: fixed;
-/* width: 20vw; */
-z-index: 999;
 }
+
 .yellow-bg{
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
     width: 20vw;
-    /* margin-top: 20rem; */
-height: 100vh;
-border-left: 3px solid #000;
-border-right: 3px solid #000;
-background: #F7CB45;
+    height: 100vh;
+    border-left: 3px solid #000;
+    border-right: 3px solid #000;
+    background: #F7CB45;
 }
 .aastha-button{
     position: absolute;
@@ -72,15 +69,6 @@ background: #F7CB45;
 height: 27.625rem;
 background-image: url("./Photos/my-vector.png");
 }
-.home-left{
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    align-items: flex-start;
-    gap: 1.5625rem;
-    height: 100vh;
-}
-
 
 .nav-buttons button{
     text-decoration: none;
@@ -91,7 +79,7 @@ background-image: url("./Photos/my-vector.png");
 .tooltip-text{
     width: 4.5rem;
         visibility: hidden;
-    display: inline-flex;
+    display: flex;
 padding: 0.3125rem 0.625rem;
 justify-content: center;
 align-items: center;
@@ -107,6 +95,14 @@ box-shadow: 4px 4px 0px 0px #000;
 
 .nav-buttons button:hover .tooltip-text{
 visibility: visible;
+}
+.home-left{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 1.5625rem;
+    height: 100vh;
 }
 
 .main-heading h3{
@@ -370,36 +366,3 @@ background-size: contain;}
 .project-content p{
     font-size:1rem;
 }
-
-@media (max-width: 1200px){
-.home-right{
-    flex-direction: column;
-    align-items: center; 
-}
-.nav-buttons{
-    position: fixed;
-    flex-direction: row;
-}
-}
-/* 
-@media (max-width: 600px) {
-
-    .home-right{
-        flex-direction: column;
-        align-items: flex-start;
-    }
-   
-    .yellow-bg{
-        justify-content: flex-start;
-        height: 100vh;
-        align-items: flex-start;
-    }
-    .my-vector{
-        margin-top:2vh ;
-        margin-left: -8vw;
-    }
-    .aastha-button{
-        visibility: hidden;
-    }
-    
-} */
