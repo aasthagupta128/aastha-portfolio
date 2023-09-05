@@ -1,8 +1,12 @@
 @font-face {
-    font-family: RobotoSerif;
-    src: url('./RobotoSerif-Regular.ttf');
+    font-family: LeagueSpartan;
+    src: url('./LeagueSpartan-Regular.ttf');
 }
 
+@font-face{
+    font-family: RobotoSerif;
+    scr: url('./RobotoSerif-Regular.ttf')
+}
 html {
     scroll-behavior: smooth;
 }
@@ -115,7 +119,7 @@ body {
     height: 100vh;
 }
 
-.main-heading h3 {
+.main-heading {
     color: #000;
     font-family: RobotoSerif;
     font-size: 1.5rem;
@@ -142,7 +146,7 @@ body {
     background: #FF9191;
     box-shadow: 2px 2px 0px 0px #000;
     color: #000;
-    font-family: RobotoSerif;
+    font-family: LeagueSpartan;
     font-size: 1.3125rem;
     font-style: normal;
     font-weight: 400;
@@ -167,7 +171,7 @@ body {
 .social-media {
     display: flex;
     gap: 1rem;
-    margin-top: 1.5rem;
+    margin-top: 0rem;
     flex-wrap: wrap;
 }
 
@@ -180,7 +184,7 @@ body {
 
 .about-title {
     color: #000;
-    font-family: RobotoSerif;
+    font-family: LeagueSpartan;
     font-size: 1.5625rem;
     font-style: normal;
     font-weight: 700;
@@ -190,7 +194,7 @@ body {
 .about-para {
     /* width: 70%; */
     color: #000;
-    font-family: RobotoSerif;
+    font-family: LeagueSpartan;
     font-size: 1.3125rem;
     font-style: normal;
     font-weight: 400;
@@ -215,7 +219,7 @@ body {
 .about-dev-content {
     width: fit-content;
     color: #000;
-    font-family: RobotoSerif;
+    font-family: LeagueSpartan;
     font-size: 1.125rem;
     font-style: normal;
     font-weight: 400;
@@ -234,7 +238,7 @@ body {
     background: #22A094;
     box-shadow: 2px 2px 0px 0px #000;
     color: #FFF;
-    font-family: RobotoSerif;
+    font-family: LeagueSpartan;
     font-size: 1.3125rem;
     font-style: normal;
     font-weight: 400;
@@ -289,7 +293,7 @@ body {
     margin-top: 0rem;
     margin-bottom: -0.7rem;
     color: #000;
-    font-family: RobotoSerif;
+    font-family: LeagueSpartan;
     font-size: 1.125rem;
     font-style: normal;
     font-weight: 700;
@@ -310,7 +314,7 @@ color: #000;
 .project-content p {
     margin-bottom: -0.5rem;
     color: #000;
-    font-family: RobotoSerif;
+    font-family: LeagueSpartan;
     font-size: 1.125rem;
     font-style: normal;
     font-weight: 400;
@@ -339,7 +343,7 @@ color: #000;
 .doodle-heading {
     /* margin-left: 10vw; */
     color: #000;
-    font-family: RobotoSerif;
+    font-family: LeagueSpartan;
     font-size: 1.5625rem;
     font-style: normal;
     font-weight: 400;
@@ -389,6 +393,9 @@ color: #000;
         background-size: cover;
         background-repeat: no-repeat;
     }
+    .body-main{
+        margin-left: 1.5rem;
+    }
 }
 
 @media (max-width: 600px) {
@@ -402,21 +409,23 @@ color: #000;
     .Thanks {
         margin-top: 8rem;
         text-align: center;
+        font-size: 1rem;
+        line-height: 1.5rem;
     }
     .main-heading h1 {
         font-size: 1.2rem;
     }
     .main-heading h3,
     .about-dev-content {
-        font-size: 1rem;
-        line-height: 1.2rem;
+        font-size: 0.7rem;
+        line-height: 1rem;
     }
     .about-title {
         font-size: 1rem;
     }
     .about-para,
     .doodle-heading {
-        font-size: 1rem;
+        font-size: 0.8rem;
         line-height: 1.2rem;
     }
     .about-buttons button,
@@ -444,11 +453,13 @@ color: #000;
 }
 
 .project-title {
-    font-size: 1rem;
+    font-size: 0.8rem;
+    line-height: 1rem;
 }
 
 .project-content p {
-    font-size: 1rem;
+    font-size: 0.8rem;
+    line-height: 1rem;
 }
 
 @media(max-width: 1000px) {
