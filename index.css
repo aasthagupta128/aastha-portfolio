@@ -149,6 +149,10 @@ body {
     line-height: normal;
 }
 
+.home-buttons button:hover{
+    box-shadow: 4px 4px 0px 0px black;
+}
+
 .social-media button {
     text-decoration: none;
     background-color: transparent;
@@ -156,6 +160,10 @@ body {
     padding: 0;
 }
 
+.social-media button img:hover{
+    box-shadow: 2px 2px 0px 0px black;
+    border-radius: 50%;
+}
 .social-media {
     display: flex;
     gap: 1rem;
@@ -233,6 +241,9 @@ body {
     line-height: normal;
 }
 
+.about-buttons button:hover{
+    box-shadow: 4px 4px 0px 0px black;
+}
 .web-world-main {
     margin-top: 10rem;
     margin-bottom: 2.5rem;
@@ -258,6 +269,10 @@ body {
     border-radius: 1.25rem;
     border: 3px solid #000;
     box-shadow: 2px 2px 0px 0px #000;
+}
+
+.project:hover{
+    box-shadow: 4px 4px 0px 0px black;
 }
 
 .project-logo {
@@ -286,6 +301,10 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
+}
+.project-content a{
+text-decoration: none;
+color: #000;
 }
 
 .project-content p {
