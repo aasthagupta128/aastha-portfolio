@@ -8,14 +8,8 @@
 </head>
 <body>
     <!-- Home -->
-    <div class="body-right">
-    <div class="home-right">
-        <div class="yellow-bg">
-            <div class="my-vector"></div>
-        </div>
-    </div></div>
     <div class="body-left">
-    <div class="home">
+    <div class="home" id="home">
         <div class="home-left">
             <div class="main-heading">
                 <h1>Hi! I am Aastha Gupta <br> Learner | Developer | Designer</h1>
@@ -23,16 +17,19 @@
             </div>
             <div class="home-buttons">
                 <button>Resume</button>
-                <button style="background-color: #FFDDA9;">Know Me More</button>
-                <button style="background-color: #B1E98F;">Message</button>
+                <button style="background-color: #FFDDA9;"><a href="#about" style="text-decoration: none; color: black;">Know More</a></button>
+                <!-- <button style="background-color: #B1E98F;"><a href="#about" style="text-decoration: none; color: black;"></a>Message</button> -->
             </div>
             <div class="social-media">
+                <button><a href="https://mail.google.com/mail/?view=cm&fs=1&tf=1&to=aasthapgupta128@gmail.com" target="_blank"><img src="./Photos/mail.svg"></a></button>
+                <button><a href="https://github.com/aasthagupta128" target="_blank"><img src="./Photos/github.svg"></a></button>
+                <button><a href="https://www.linkedin.com/in/aastha1208/" target="_blank"><img src="./Photos/linkedin.svg"></a></button>
             </div>
         </div>
     </div>
 
     <!-- About -->
-    <div class="about">
+    <div class="about" id="about">
         <div class="about-title">About Me</div>
         <div class="about-para">
             I am an innovative developer eager to delve into the world of web development. I thrive on working alongside a diverse team, constantly pushing the limits of my creativity to generate fresh ideas and foster personal growth.
@@ -43,7 +40,7 @@
             <div class="about-dev-content">I'm on a web development rollercoaster! Right now, I'm soaking up <b>HTML</b>, <b>CSS</b>, and <b>JavaScript</b> like a sponge. I'm all in for this wild ride to become a top-notch web whiz, and I can't wait to jump into the action as a newbie in the field.</div>
         </div>
         <div class="about-buttons">
-            <button>Step Into My Web World!</button>
+            <button><a href="#projects" style="text-decoration: none; color:black">Step Into My Web World!</a></button>
         </div>
 
 
@@ -53,7 +50,7 @@
             <div class="about-dev-content">I'm all about learning and exploring the creative world! I dabble in <b>Adobe Illustrator</b> and <b>Adobe Photoshop</b>, having a blast with illustrations, posters, and various designs. Plus, I'm on a <b>Figma</b> adventure, figuring out the ropes of making user-friendly web apps and websites. Let's grow together!</div>
         </div>
         <div class="about-buttons">
-            <button style="background-color:#FF9191; color: black;">Check Out My Cool Designs & Doodles!</button>
+            <button style="background-color:#FF9191; color: black;"><a href="#projects" style="text-decoration: none; color:black">Check Out My Cool Designs & Doodles!</a></button>
         </div>
         
         <!-- about div 3 -->
@@ -62,15 +59,15 @@
             <div class="about-dev-content">I love to have a blast with my hobbies! You'll catch me crafting <b>mandalas</b>, <b>painting</b>, and diving into all sorts of creative crafts. Plus, check out those cool <b>digital vectors</b> I whip up – just like the one on the right side of this page! </div>
         </div>
         <div class="about-buttons">
-            <button style="background-color:#D9D9D9; color: black;">Peek At My Artsy-Craftsy Awesomeness!</button>
+            <button style="background-color:#D9D9D9; color: black;"><a href="#art" style="text-decoration: none; color:black">Peek At My Artsy-Craftsy Awesomeness!</a></button>
         </div>
     </div>
 
     <!-- Web World -->
-    <div class="web-world-main about-title">My Web World!</div>
+    <div class="web-world-main about-title" id="projects">My Web World!</div>
     <div class="web-world">
         <div class="project">
-            <div class="project-logo" style="background-image: url(./Photos/devinetechlogo.png); background-repeat: no-repeat;"></div>
+            <div class="project-logo" style="background-image: url(./Photos/devinetechlogo.png);"></div>
             <div class="project-title">Devine Techknowlogy</div>
             <div class="project-content">
                 <p>HTML | CSS | Next.js</p>
@@ -79,7 +76,7 @@
         </div>
 
         <div class="project">
-            <div class="project-logo" style="background-image: url(./Photos/sudeepplasticlogo.png); background-repeat: no-repeat; background-size: cover;"></div>
+            <div class="project-logo" style="background-image: url(./Photos/sudeepplasticlogo.png);"></div>
             <div class="project-title">Sudeep Plastic Surgery</div>
             <div class="project-content">
                 <p>HTML | CSS | Next.js</p>
@@ -88,7 +85,7 @@
         </div>
 
         <div class="project">
-            <div class="project-logo" style="background-image: url(./Photos/sudeepentlogo.png); background-repeat: no-repeat; background-size: cover;"></div>
+            <div class="project-logo" style="background-image: url(./Photos/sudeepentlogo.png);"></div>
             <div class="project-title">Sudeep ENT Hospital</div>
             <div class="project-content">
                 <p>HTML | CSS | React.js</p>
@@ -107,7 +104,7 @@
     </div>
 
      <!-- Cool Doodles -->
-     <div class="about-title doodle-main">My Cool Doodles!</div>
+     <div class="about-title doodle-main" id="art">My Cool Doodles!</div>
      <div class="doodles">
         <div class="doodle-heading">Introducing You To My Awesome Squad!</div>
         <div class="doodle-photos">
@@ -130,5 +127,20 @@
         Thanks for stopping by and exploring my digital playground!
      </div>
      </div>
+     <div class="body-right">
+        <div class="home-right">
+            <div class="yellow-bg">
+                <!-- <div class="aastha-button"><button>Aastha</button></div> -->
+                <div class="my-vector"></div>
+                <div class="aastha-button"></div>
+            </div>
+        </div>
+    </div>
+     <div class="nav-buttons">
+        <button><a href="#home"><span class="tooltip-text">Home</span><img src="./Photos/home.svg"></a></button>
+        <button><a href="#about"><span class="tooltip-text">About</span><img src="./Photos/about.svg"></a></button>
+        <button><a href="#projects"><span class="tooltip-text">Projects</span><img src="./Photos/projects.svg"></a></button>
+        <button><a href="#art"><span class="tooltip-text">Art Work</span><img src="./Photos/art.svg"></a></button>
+    </div>
 </body>
 </html>

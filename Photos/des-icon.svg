@@ -1,27 +1,12 @@
-<svg width="70" height="70" viewBox="0 0 70 70" fill="none" xmlns="http://www.w3.org/2000/svg">
-<g id="Group 7" filter="url(#filter0_d_451_63)">
-<g id="Group 8">
-<path id="Vector 5" d="M34.2632 8.8418L16.2105 35.7365C20.8595 43.0055 22.9544 47.1456 23.9474 54.8944H44.9474C46.1355 46.3022 48.096 42.2118 53.0526 35.7365L34.2632 8.8418Z" fill="#FF9191" stroke="black" stroke-width="3"/>
-<path id="Vector 6" d="M20.2632 65.5792V56.3687H47.5263V65.5792H20.2632Z" fill="#D9D9D9" stroke="black" stroke-width="3"/>
-<path id="Vector 7" d="M5.52632 34.2635C7.66862 14.0541 14.3707 7.63632 34.8158 4.42139M63.7368 34.2635C61.4588 14.0286 55.0539 7.67701 34.8158 4.42139M2.57895 4.42139H34.8158M67.0526 4.42139H34.8158" stroke="black" stroke-width="3"/>
-<circle id="Ellipse 2" cx="3.23077" cy="4.30765" r="1.65385" fill="#D9D9D9" stroke="black"/>
-<circle id="Ellipse 3" cx="5.38462" cy="34.4615" r="1.65385" fill="#D9D9D9" stroke="black"/>
-<circle id="Ellipse 6" cx="34.4615" cy="4.30765" r="1.65385" fill="#D9D9D9" stroke="black"/>
-<circle id="Ellipse 8" cx="65.6923" cy="4.30765" r="1.65385" fill="#D9D9D9" stroke="black"/>
-<circle id="Ellipse 9" cx="63.5385" cy="34.4615" r="1.65385" fill="#D9D9D9" stroke="black"/>
-<path id="Vector 8" d="M34.6316 10.3159V35.3686" stroke="black" stroke-width="3"/>
-<circle id="Ellipse 7" cx="34.6316" cy="35.3687" r="1.71053" fill="#D9D9D9" stroke="black"/>
-</g>
-</g>
-<defs>
-<filter id="filter0_d_451_63" x="1.07692" y="2.15381" width="68.7692" height="66.9253" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
-<feFlood flood-opacity="0" result="BackgroundImageFix"/>
-<feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
-<feOffset dx="2" dy="2"/>
-<feComposite in2="hardAlpha" operator="out"/>
-<feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0"/>
-<feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow_451_63"/>
-<feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow_451_63" result="shape"/>
-</filter>
-</defs>
+<svg width="67" height="66" viewBox="0 0 67 66" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M33.2632 6.8418L15.2105 33.7365C19.8595 41.0055 21.9544 45.1456 22.9474 52.8944H43.9474C45.1355 44.3022 47.096 40.2118 52.0526 33.7365L33.2632 6.8418Z" fill="#FF9191" stroke="black" stroke-width="3"/>
+<path d="M19.2632 63.5792V54.3687H46.5263V63.5792H19.2632Z" fill="#D9D9D9" stroke="black" stroke-width="3"/>
+<path d="M4.52632 32.2635C6.66862 12.0541 13.3707 5.63632 33.8158 2.42139M62.7368 32.2635C60.4588 12.0286 54.0539 5.67701 33.8158 2.42139M1.57895 2.42139H33.8158M66.0526 2.42139H33.8158" stroke="black" stroke-width="3"/>
+<circle cx="2.23077" cy="2.30765" r="1.65385" fill="#D9D9D9" stroke="black"/>
+<circle cx="4.38462" cy="32.4615" r="1.65385" fill="#D9D9D9" stroke="black"/>
+<circle cx="33.4615" cy="2.30765" r="1.65385" fill="#D9D9D9" stroke="black"/>
+<circle cx="64.6923" cy="2.30765" r="1.65385" fill="#D9D9D9" stroke="black"/>
+<circle cx="62.5385" cy="32.4615" r="1.65385" fill="#D9D9D9" stroke="black"/>
+<path d="M33.6316 8.31592V33.3686" stroke="black" stroke-width="3"/>
+<circle cx="33.6316" cy="33.3687" r="1.71053" fill="#D9D9D9" stroke="black"/>
 </svg>
