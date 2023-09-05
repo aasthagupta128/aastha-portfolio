@@ -364,7 +364,7 @@ color: #000;
     gap: 1rem;
     justify-items: center;
     justify-content: center;
-    margin: auto;
+    margin-left:0%;
 }
 
 .art-images img {
