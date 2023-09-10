@@ -119,14 +119,21 @@ body {
     height: 100vh;
 }
 
-.main-heading {
+.main-heading h1{
+    color: #000;
+    font-family: RobotoSerif;
+    font-size: 3rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 3.5rem;
+}
+.main-heading h3{
     color: #000;
     font-family: RobotoSerif;
     font-size: 1.5rem;
     font-style: normal;
     font-weight: 400;
-    line-height: 1.875rem;
-    /* 125% */
+    line-height: 2rem;
 }
 
 .home-buttons {
@@ -151,6 +158,10 @@ body {
     font-style: normal;
     font-weight: 400;
     line-height: normal;
+}
+.home-buttons button a{
+    text-decoration: none;
+    color: black;
 }
 
 .home-buttons button:hover{
@@ -412,8 +423,9 @@ color: #000;
         font-size: 1rem;
         line-height: 1.5rem;
     }
-    .main-heading h1 {
+    .main-heading h1{
         font-size: 1.2rem;
+        line-height: 1.6rem;
     }
     .main-heading h3,
     .about-dev-content {
